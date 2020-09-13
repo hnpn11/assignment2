@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="565.0" maxWidth="632.0" prefHeight="565.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatController">
+	<children>
+		<TextArea fx:id="taMessageList" layoutX="13.0" layoutY="14.0" prefHeight="446.0" prefWidth="605.0" />
+		<TextField fx:id="tfInputMessage" layoutX="14.0" layoutY="476.0" onAction="#send" prefHeight="59.0" prefWidth="516.0" />
+		<Button fx:id="btnSend" layoutX="553.0" layoutY="476.0" mnemonicParsing="false" onAction="#send" prefHeight="48.0" prefWidth="65.0" text="Send" />
+	</children>
+</AnchorPane>
